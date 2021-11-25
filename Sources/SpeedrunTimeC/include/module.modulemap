@@ -1,0 +1,4 @@
+module SpeedrunTimeC {
+    umbrella "."
+    export *
+}

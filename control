@@ -1,0 +1,9 @@
+Package: ovh.exerhythm.speedruntime
+Name: SpeedrunTime
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Shows a popup when a device reaches 1% battery... not in a usual way
+Maintainer: ExeRhythm
+Author: ExeRhythm
+Section: Tweaks
+Depends: ${ORION}, firmware (>= 12.2)

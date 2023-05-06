@@ -41,9 +41,8 @@ class SBUIControllerHook: ClassHook<NSObject> {
 
     
     private func showLowAlert() {
-        let messages = ["i'm fucked","who cares","i don't care","use till it's dead","whatever","download 100%","well fuck"]
+        let messages = ["💀","who cares","i don't care","ok and","whatever","download 100%","oh well"]
         alert(title: "Speedrun time!", message: "\(percentage ?? 1)% remaining", action: messages.randomElement()!)
-//        alert(title: "Speedrun time!", message: "1% remaining", action: "i don't care")
     }
     
     private func alert(title: String, message: String, action: String) {
